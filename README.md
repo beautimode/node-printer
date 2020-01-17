@@ -23,7 +23,8 @@ Based on armetiz/node-printer-lp and diegoalberto/node-printer-lp-complete and a
 ## Quick Examples
 
 ```js
-var Printer = require('node-printer');
+const fs = require('fs');
+var Printer = require('zuzel-printer');
 var options = {
     media: 'Custom.200x600mm',
     n: 3
